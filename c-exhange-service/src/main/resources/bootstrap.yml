@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: c-exchange-service
+
+
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+  profiles:
+    active: dev
+
+
+
+
+
+
